@@ -1,0 +1,18 @@
+{
+  "name": "cypress_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "node_modules/.bin/cypress",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --spec cypress/integration/*.feature"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.1.4",
+    "cypress-cucumber-preprocessor": "^1.9.1"
+  }
+}
